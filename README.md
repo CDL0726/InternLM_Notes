@@ -1,4 +1,4 @@
-# 第1课 《书生·浦语大模型全链路开源体系》陈恺   
+# 第1节 《书生·浦语大模型全链路开源体系》陈恺   
 【书生·浦语大模型全链路开源体系】(https://www.bilibili.com/video/BV1Rc411b7ns)  
 ## Pre-reading  
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
