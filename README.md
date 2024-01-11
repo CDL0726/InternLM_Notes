@@ -1,5 +1,5 @@
-# **第1节 《书生·浦语大模型全链路开源体系》陈恺**   
-【书生·浦语大模型全链路开源体系】(https://www.bilibili.com/video/BV1Rc411b7ns)  
+# **书生·浦语大模型实战营 22班**
+#### Dennis 笔记  Updated: Jan 11, 2024
 ## Pre-reading  
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
 ### [中文GPTs网站](https://www.glbai.com/ )  
@@ -24,16 +24,18 @@
 ### 7.Gradio 来搭建前端界面  
 #### [Gradio 的介绍与前端界面的搭建](https://datawhalechina.github.io/llm-universe/#/C7/2.%20Gradio%20%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA?id=%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%81gradio-%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA-%F0%9F%92%AC)
 ## **Online Course**  
-### 《书生·浦语大模型全链路开源体系》陈恺
-## **从专用模型到通用大模型**  
-## **从模型到应用的路线图**   
-## **书生·浦语大模型全链路开源体系**   
-### 1- 数据  书生·万卷1.0  OpenDataLab   
-### 2- 预训练 InterLM-Train   
-### 3- 模型微调 X Tuner   
-### 4- 模型评测  OpenCompass   
-### 5- 模型部署  LMDeploy   
-### 6- 智能体 Lagent  AgentLengo   
+### **第1节 《书生·浦语大模型全链路开源体系》**
+#### Jan 9, 2024  陈恺
+【书生·浦语大模型全链路开源体系】(https://www.bilibili.com/video/BV1Rc411b7ns)  
+## **1. 从专用模型到通用大模型**  
+## **2. 从模型到应用的路线图**   
+## **3. 书生·浦语大模型全链路开源体系**   
+### 3.1 数据  书生·万卷1.0  OpenDataLab   
+### 3.2 预训练 InterLM-Train   
+### 3.3 模型微调 X Tuner   
+### 3.4 模型评测  OpenCompass   
+### 3.5 模型部署  LMDeploy   
+### 3.6 智能体 Lagent  AgentLengo   
 ## **Take away**  
 ### 1.从专用模型到通用大模型
 ### 2.大模型落地应用的路径图
