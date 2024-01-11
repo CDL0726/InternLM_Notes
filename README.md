@@ -23,6 +23,7 @@
 ### 6.准则二多维评估大模型
 ### 7.Gradio 来搭建前端界面  
 #### [Gradio 的介绍与前端界面的搭建](https://datawhalechina.github.io/llm-universe/#/C7/2.%20Gradio%20%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA?id=%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%81gradio-%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA-%F0%9F%92%AC)
+---
 ## **Online Course**  
 # **第1节 《书生·浦语大模型全链路开源体系》**
 #### Jan 9, 2024  陈恺
@@ -40,10 +41,12 @@
 ### 1.从专用模型到通用大模型
 ### 2.大模型落地应用的路径图
 ### 3.书生·浦语 全链条开源开放体系：数据 预训练 微调 部署 评测 智能体
+---
 ## **Online Course**
 # **第2节 轻松玩转书生·浦语大模型趣味Demo**
 #### Jan 10, 2024  宋志学
 [轻松玩转书生·浦语大模型趣味Demo](https://www.bilibili.com/video/BV1Ci4y1z72H/?vd_source=427d5b3bd6552cd66c00e381e2aae338)  
+[文档](https://github.com/InternLM/tutorial/blob/main/helloworld/)
 ## 1.大模型及 InternLM 模型简介  
 ###    1.1 什么是大模型  大模型通常指的是机器学习或人工智能领域中参数数量巨大、拥有庞大计算能力和参数规模的模型。特点是拥有数十亿至数千亿参数 惊人性能。
 ###    1.2 InternLM 是个开源的轻量级训练框架 InterLM-7B  InternLM-20B
