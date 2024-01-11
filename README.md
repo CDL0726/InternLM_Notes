@@ -1,5 +1,5 @@
 # **书生·浦语大模型实战营 22班**
-#### Dennis 笔记  Updated: Jan 11, 2024
+#### Dennis 笔记    Updated: Jan 11, 2024
 ## Pre-reading  
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
 ### [中文GPTs网站](https://www.glbai.com/ )  
