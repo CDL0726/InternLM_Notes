@@ -1,6 +1,7 @@
 # **书生·浦语大模型实战营 22班**
 #### Dennis 笔记    Updated: Jan 11, 2024
-## Pre-reading  
+## Pre-reading 
+### [文档](https://github.com/InternLM/tutorial/blob/main/helloworld/)
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
 ### [中文GPTs网站](https://www.glbai.com/ )  
 ### [InterLM](https://github.com/InternLM/tutorial/)
@@ -46,7 +47,6 @@
 # **第2节 轻松玩转书生·浦语大模型趣味Demo**
 #### Jan 10, 2024  宋志学
 [轻松玩转书生·浦语大模型趣味Demo](https://www.bilibili.com/video/BV1Ci4y1z72H/?vd_source=427d5b3bd6552cd66c00e381e2aae338)  
-[文档](https://github.com/InternLM/tutorial/blob/main/helloworld/)
 ## 1.大模型及 InternLM 模型简介  
 ###    1.1 什么是大模型  大模型通常指的是机器学习或人工智能领域中参数数量巨大、拥有庞大计算能力和参数规模的模型。特点是拥有数十亿至数千亿参数 惊人性能。
 ###    1.2 InternLM 是个开源的轻量级训练框架 InterLM-7B  InternLM-20B
