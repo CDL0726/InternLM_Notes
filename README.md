@@ -24,7 +24,7 @@
 ### 7.Gradio 来搭建前端界面  
 #### [Gradio 的介绍与前端界面的搭建](https://datawhalechina.github.io/llm-universe/#/C7/2.%20Gradio%20%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA?id=%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%81gradio-%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%89%8D%E7%AB%AF%E7%95%8C%E9%9D%A2%E7%9A%84%E6%90%AD%E5%BB%BA-%F0%9F%92%AC)
 ## **Online Course**  
-### **第1节 《书生·浦语大模型全链路开源体系》**
+# **第1节 《书生·浦语大模型全链路开源体系》**
 #### Jan 9, 2024  陈恺
 [书生·浦语大模型全链路开源体系](https://www.bilibili.com/video/BV1Rc411b7ns)  
 ## **1. 从专用模型到通用大模型**  
@@ -40,7 +40,7 @@
 ### 1.从专用模型到通用大模型
 ### 2.大模型落地应用的路径图
 ### 3.书生·浦语 全链条开源开放体系：数据 预训练 微调 部署 评测 智能体
-
+## **Online Course**
 # **第2节 轻松玩转书生·浦语大模型趣味Demo**
 #### Jan 10, 2024  宋志学
 [轻松玩转书生·浦语大模型趣味Demo](https://www.bilibili.com/video/BV1Ci4y1z72H/?vd_source=427d5b3bd6552cd66c00e381e2aae338)  
