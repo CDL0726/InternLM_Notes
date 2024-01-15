@@ -1,5 +1,5 @@
 # **书生·浦语大模型实战营 22班**
-#### Dennis 笔记    Updated: Jan 11, 2024
+#### Dennis 笔记    Updated: Jan 15, 2024
 ## Pre-reading 
 ### [文档](https://github.com/InternLM/tutorial/blob/main/helloworld/)
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
@@ -86,3 +86,20 @@
 ####       6.2.1 完成浦语·灵笔的图文理解及创作部署（需截图）
 ####       6.2.2 完成 Lagent 工具调用 Demo 创作部署（需截图）
 ###   6.3 整体实训营项目：即日开始可以在班级群中随机组队完成一个大作业项目
+---
+## **Online Course**
+# **第3节 基于 InternLM 和 LangChain 搭建你的知识库**
+#### 2024.1.15 
+#### [文档](https://github.com/InternLM/tutorial/tree/main/langchain)  
+## 1. LLM的局限性
+#### 1.1 知识时效性受限
+#### 1.2 专业能力有限 如何打造垂域大模理
+#### 1.3 定制化成本高 如何打造人人专属的LLM应用
+## 2. RAG vs Finetune
+### 2.1 RAG 检索增强生成
+## 3.构建向量数据库
+#### 3.1 加载源文件   文档分块   文档向量化
+## 4. 搭建知识库助手
+#### 4.1 将InterLM接入langchain
+#### 4.2 构建检索问答链
+## 5.Web Demo 部署
