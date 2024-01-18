@@ -89,7 +89,7 @@
 ---
 ## **Online Course**
 # **第3节 基于 InternLM 和 LangChain 搭建你的知识库**
-#### 2024.1.15 
+#### Jan 15 2024 
 #### [文档](https://github.com/InternLM/tutorial/tree/main/langchain)  
 ## 1. LLM的局限性
 #### 1.1 知识时效性受限
@@ -100,8 +100,29 @@
 ## 3.构建向量数据库
 #### 3.1 加载源文件   文档分块   文档向量化
 ## 4. 搭建知识库助手
-#### 4.1 将InterLM接入langchain
+### 4.1 将InterLM接入langchain
 #### 4.2 构建检索问答链
 #####    4.2.1 检索方面基于语义进行分割，何证每一个chunk的语义完整
 ## 5.Web Demo 部署
 #### 5.1 支持简易Web部署框架：Gradio, Streamlit
+
+---
+## **online Courese**  
+# **第4节 XTuner 大模型单卡低成本微调实战**
+#### Jan 18 2024汪周谦 XTuner 社区贡献者
+[课件文档](https://github.com/InternLM/tutorial/blob/main/xtuner/README.md)
+## Finetune简介
+#### 指令跟随微调  
+#####   三个角色：system user assistant
+#### 增量预训练微调
+#### XTuner微调原理：LoRA & QLoRA
+#### 多数据样本拼接(Pack Dataset)  自定义数据集格式Json 或 Jsonl
+
+
+## XTuner 介绍
+#### 0基础的非专业的微调模型工具
+
+## 8G显卡玩转LLM
+
+## 实战
+
