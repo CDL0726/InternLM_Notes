@@ -109,20 +109,24 @@
 ---
 ## **online Courese**  
 # **第4节 XTuner 大模型单卡低成本微调实战**
-#### Jan 18 2024汪周谦 XTuner 社区贡献者
+#### Jan 18 2024    汪周谦 XTuner 社区贡献者
 [课件文档](https://github.com/InternLM/tutorial/blob/main/xtuner/README.md)
+
 ## Finetune简介
 #### 指令跟随微调  
 #####   三个角色：system user assistant
 #### 增量预训练微调
-#### XTuner微调原理：LoRA & QLoRA
-#### 多数据样本拼接(Pack Dataset)  自定义数据集格式Json 或 Jsonl
-
 
 ## XTuner 介绍
 #### 0基础的非专业的微调模型工具
+#### XTuner微调原理：LoRA & QLoRA
+#### 多数据样本拼接(Pack Dataset)  自定义数据集格式Json 或 Jsonl  
 
 ## 8G显卡玩转LLM
+### 二种优化技巧
+####    Flashion Attention, Flash Attention 将 Attention 计算并行化避免了计算过程中 Attention Score NxN的显存占用 (训练过程中的 N 都比较大)
+####    DeepSpeed ZeRO, ZeRO 优化，通过将训练过程中的参数、梯度和优化器状态切片保存，能够在多 GPU 训练时显著节省显存
+除了将训练中间状态切片外，DeepSpeed 训练时使用 FP16 的权重，相较于 Pytorch 的AMP 训练在单 GPU上也能大幅节省显存   
 
 ## 实战
 
