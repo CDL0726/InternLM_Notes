@@ -137,5 +137,5 @@
    - apt install tmux -y 
    - Ctr + C 中断
    - tmux new -s finetune  创建tmux session 
-   - 48/1:34 退出Finetune命令： Ctrl+B,松开后再 按 D
+   - 退出Finetune命令： Ctrl+B,松开后再 按 D
    - 回到Finetune命令： tmux attach -t finetune
