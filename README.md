@@ -129,5 +129,13 @@
 除了将训练中间状态切片外，DeepSpeed 训练时使用 FP16 的权重，相较于 Pytorch 的AMP 训练在单 GPU上也能大幅节省显存   
 
 ## 实战
-   - 48/1:34 退出Finetune命令： Ctrl+B,D
+#### 利用Tmux持续微调（关电脑情况下, 课件视频0:43:00 ~ 0：46:45/1:34:01）
+   - Ctrl + C 中断微调
+   - ls 查看文件 （openassistant-guanace, work_dirs）
+   - rm -rf work_dirs  删除文件 work_dirs
+   - apt update -y 对apt语言进行更新，在root文件下
+   - apt install tmux -y 
+   - Ctr + C 中断
+   - tmux new -s finetune  创建tmux session 
+   - 48/1:34 退出Finetune命令： Ctrl+B,松开后再 按 D
    - 回到Finetune命令： tmux attach -t finetune
