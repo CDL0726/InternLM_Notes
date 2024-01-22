@@ -129,6 +129,11 @@
 除了将训练中间状态切片外，DeepSpeed 训练时使用 FP16 的权重，相较于 Pytorch 的AMP 训练在单 GPU上也能大幅节省显存   
 
 ## 实战
+### Windows PowerShell 链接SSH
+   - Windnows 找开 Windows PowerShell 
+   - ssh-keygen 输入 回车，直接出现 SHA256，说明公钥文件已经创建好了
+   - cat .\.ssh\id_rsa.pub 公钥文件
+   
 #### 利用Tmux持续微调（关电脑情况下, 课件视频0:43:00 ~ 0：46:45/1:34:01）
    - Ctrl + C 中断微调
    - ls 查看文件 （openassistant-guanace, work_dirs）
@@ -139,3 +144,12 @@
    - tmux new -s finetune  创建tmux session 
    - 退出Finetune命令： Ctrl+B,松开后再 按 D
    - 回到Finetune命令： tmux attach -t finetune
+
+#### XTuner下载时出错的解决方案：
+# 拉取 0.1.9 的版本源码
+git clone -b v0.1.9  https://github.com/InternLM/xtuner
+# 无法访问github的用户请从 gitee 拉取:
+# git clone -b v0.1.9 https://gitee.com/Internlm/xtuner
+
+[Serper API](https://serper.dev/api-key)
+
