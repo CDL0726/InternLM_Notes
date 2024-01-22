@@ -150,10 +150,10 @@
    - 回到Finetune命令： tmux attach -t finetune
 
 #### XTuner下载时出错的解决方案：
-   - # 拉取 0.1.9 的版本源码
-   - git clone -b v0.1.9  https://github.com/InternLM/xtuner
-   - # 无法访问github的用户请从 gitee 拉取:
-   - # git clone -b v0.1.9 https://gitee.com/Internlm/xtuner
+###### 拉取 0.1.9 的版本源码
+         - git clone -b v0.1.9  https://github.com/InternLM/xtuner
+###### 无法访问github的用户请从 gitee 拉取:
+         - git clone -b v0.1.9 https://gitee.com/Internlm/xtuner
 
 [Serper API](https://serper.dev/api-key)
 
