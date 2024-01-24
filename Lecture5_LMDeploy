@@ -1,4 +1,13 @@
-# LMDeploy 的量化和部署
+## **online Courese**  
+# **第5节 LMDeploy 大模型量化部署实践**
+#### Jan 24 2024    长琴 ｜ HuggingLLM 开源项目负责人
+
+[课程视频](https://www.bilibili.com/video/BV1iW4y1A77P/?vd_source=427d5b3bd6552cd66c00e381e2aae338)
+
+[课程文档](https://github.com/InternLM/tutorial/blob/main/lmdeploy/lmdeploy.md)
+
+
+## LMDeploy 的量化和部署
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -30,3 +39,6 @@
   - [TritonServer环境配置](#tritonserver%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
   - [TritonServer推理+API服务](#tritonserver%E6%8E%A8%E7%90%86api%E6%9C%8D%E5%8A%A1)
   - [TritonServer 服务作为后端](#tritonserver-%E6%9C%8D%E5%8A%A1%E4%BD%9C%E4%B8%BA%E5%90%8E%E7%AB%AF)
+
+## 安装、部署、量化 实践操作Tips
+
