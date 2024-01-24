@@ -162,6 +162,10 @@
 # **第5节 LMDeploy 大模型量化部署实践**
 #### Jan 24 2024    长琴 ｜ HuggingLLM 开源项目负责人
 
+[课程视频](https://www.bilibili.com/video/BV1iW4y1A77P/?vd_source=427d5b3bd6552cd66c00e381e2aae338)  
+
+[课程文档](https://github.com/InternLM/tutorial/blob/main/lmdeploy/lmdeploy.md)
+
 # LMDeploy 的量化和部署
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
