@@ -78,4 +78,42 @@
              - 新开一个窗口，打开 vscode 的 Terminal，执行下面的命令
                   - lmdeploy serve api_client http://localhost:23333 
 
+   - 网页 Demo 演示  
+         - TurboMind 服务作为后端  
+             - API Server 的启动和上一节一样，这里直接启动作为前端的 Gradio  
+             - lmdeploy serve gradio http://0.0.0.0:23333 \
+	           --server_name 0.0.0.0 \
+	           --server_port 6006 \
+	           --restful_api True
+
+          - TurboMind 推理作为后端  
+              - Gradio 也可以直接和 TurboMind 连接  
+              - lmdeploy serve gradio ./workspace 
+
+          - TurboMind 推理 + Python 代码集成 
+               - lmdeploy 还支持 Python 直接与 TurboMind 进行交互
+               -  from lmdeploy import turbomind as tm
+
+# load model
+model_path = "/root/share/temp/model_repos/internlm-chat-7b/"
+tm_model = tm.TurboMind.from_pretrained(model_path, model_name='internlm-chat-20b')
+generator = tm_model.create_instance()
+
+# process query
+query = "你好啊兄嘚"
+prompt = tm_model.model.get_prompt(query)
+input_ids = tm_model.tokenizer.encode(prompt)
+
+# inference
+for outputs in generator.stream_infer(
+        session_id=0,
+        input_ids=[input_ids]):
+    res, tokens = outputs[0]
+
+response = tm_model.tokenizer.decode(res.tolist())
+print(response)
+
+
+        
+
 
