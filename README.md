@@ -131,9 +131,9 @@
 ## 实战
 #### Windows PowerShell 链接SSH
    - Windnows 找开 Windows PowerShell 
-   - ssh-keygen 输入 回车，直接出现 SHA256，说明公钥文件已经创建好了
-   - cat .ssh\id_rsa.pub 公钥文件
-   - ssh -CNg -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p <你的ssh端口号>
+   - ssh-keygen -t rsa 输入 回车，直接出现 SHA256，说明公钥文件已经创建好了
+   - cat ~\.ssh\id_rsa.pub 公钥文件
+   - ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p <你的ssh端口号>
 #### 常用命令
    - Ctrl + C 中断微调
    - ls 查看文件 （openassistant-guanace, work_dirs）
