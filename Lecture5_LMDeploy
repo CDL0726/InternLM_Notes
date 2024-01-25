@@ -55,4 +55,27 @@
     - conda activate lmdeploy 激活conda环境
 
 #### 服务部署
+  - 模型转换
+      - 在线转换, lmdeploy 支持直接读取 Huggingface 模型权重,
+          - 直接启动本地的 Huggingface 模型
+          - lmdeploy chat turbomind /share/temp/model_repos/internlm-chat-7b/  --model-name internlm-chat-7b
+  -  离线转换
+       - 将模型转为 lmdeploy TurboMind 的格式 
+          - 使用官方提供的模型文件，就在用户根目录执行
+          - lmdeploy convert internlm-chat-7b  /root/share/temp/model_repos/internlm-chat-7b/ 
+
+  - TurboMind 推理+命令行本地对话
+          - lmdeploy chat turbomind ./workspace 
+
+  - TurboMind推理+API服务  
+         - ”模型推理/服务“目前提供了 Turbomind 和 TritonServer 两种服务化方式。此时，Server 是 TurboMind 或 TritonServer，API Server 可以提供对外的 API 服务。  
+           - 通过下面命令启动服务
+            - lmdeploy serve api_server ./workspace \
+	                --server_name 0.0.0.0 \
+	                --server_port 23333 \
+	                --instance_num 64 \
+	                --tp 1 
+             - 新开一个窗口，打开 vscode 的 Terminal，执行下面的命令
+                  - lmdeploy serve api_client http://localhost:23333 
+
 
