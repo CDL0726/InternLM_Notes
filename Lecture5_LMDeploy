@@ -41,4 +41,18 @@
   - [TritonServer 服务作为后端](#tritonserver-%E6%9C%8D%E5%8A%A1%E4%BD%9C%E4%B8%BA%E5%90%8E%E7%AB%AF)
 
 ## 安装、部署、量化 实践操作Tips
+#### Code server 操作tips
+    - exit() 程序退出命令
+    - cd ~ 回到根目录
+
+#### Conda 环境创建
+    - 打开开发机，进入Code Serve界面
+    - bash 
+    - vgpu-smi 查看显卡资源使用情况
+    - watch vgpu-smi 观察 GPU 资源的使用情况
+    - /root/share/install_conda_env_internlm_base.sh lmdeploy 安装新的软件包
+    - conda env list 本地查看环境
+    - conda activate lmdeploy 激活conda环境
+
+#### 服务部署
 
