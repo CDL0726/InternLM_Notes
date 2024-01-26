@@ -1,7 +1,7 @@
 # **书生·浦语大模型实战营 22班**
 #### Dennis 笔记    Updated: Jan 22, 2024
 ## Pre-reading 
-### [文档](https://github.com/InternLM/tutorial/blob/main/helloworld/)
+### [InterLM 课程文档与视频](https://github.com/InternLM/tutorial)
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
 ### [中文GPTs网站](https://www.glbai.com/ )  
 ### [InterLM](https://github.com/InternLM/tutorial/)
@@ -199,3 +199,49 @@
   - [TritonServer环境配置](#tritonserver%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
   - [TritonServer推理+API服务](#tritonserver%E6%8E%A8%E7%90%86api%E6%9C%8D%E5%8A%A1)
   - [TritonServer 服务作为后端](#tritonserver-%E6%9C%8D%E5%8A%A1%E4%BD%9C%E4%B8%BA%E5%90%8E%E7%AB%AF)
+ 
+## 安装、部署、量化 实践操作Tips
+#### Code server 操作tips
+    - exit() 程序退出命令
+    - cd ~ 回到根目录
+
+#### Conda 环境创建
+    - 打开开发机，进入Code Serve界面
+    - bash 
+    - vgpu-smi 查看显卡资源使用情况
+    - watch vgpu-smi 观察 GPU 资源的使用情况
+    - /root/share/install_conda_env_internlm_base.sh lmdeploy 安装新的软件包
+    - conda env list 本地查看环境
+    - conda activate lmdeploy 激活conda环境
+
+#### 服务部署
+  - 模型转换
+      - 在线转换, lmdeploy 支持直接读取 Huggingface 模型权重,
+          - 直接启动本地的 Huggingface 模型
+          - lmdeploy chat turbomind /share/temp/model_repos/internlm-chat-7b/  --model-name internlm-chat-7b
+  -  离线转换
+       - 将模型转为 lmdeploy TurboMind 的格式 
+          - 使用官方提供的模型文件，就在用户根目录执行
+          - lmdeploy convert internlm-chat-7b  /root/share/temp/model_repos/internlm-chat-7b/ 
+
+  - TurboMind 推理+命令行本地对话
+          - lmdeploy chat turbomind ./workspace 
+
+  - TurboMind推理+API服务  
+         - ”模型推理/服务“目前提供了 Turbomind 和 TritonServer 两种服务化方式。此时，Server 是 TurboMind 或 TritonServer，API Server 可以提供对外的 API 服务。  
+           - 通过下面命令启动服务
+            - lmdeploy serve api_server ./workspace \
+	                --server_name 0.0.0.0 \
+	                --server_port 23333 \
+	                --instance_num 64 \
+	                --tp 1 
+             - 新开一个窗口，打开 vscode 的 Terminal，执行下面的命令
+                  - lmdeploy serve api_client http://localhost:23333 
+
+   - 网页 Demo 演示  
+         - TurboMind 服务作为后端  
+             - API Server 的启动和上一节一样，这里直接启动作为前端的 Gradio  
+             - lmdeploy serve gradio http://0.0.0.0:23333 \
+	           --server_name 0.0.0.0 \
+	           --server_port 6006 \
+	           --restful_api True
