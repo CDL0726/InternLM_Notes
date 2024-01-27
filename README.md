@@ -1,11 +1,12 @@
 # **书生·浦语大模型实战营 22班**
 #### Dennis 笔记    Updated: Jan 26, 2024
+---
 ## Pre-reading 
 ### [InterLM 课程文档与视频](https://github.com/InternLM/tutorial)
 ### [基础课程](https://datawhalechina.github.io/llm-universe/#)  
 ### [中文GPTs网站](https://www.glbai.com/ )  
-### [InterLM](https://github.com/InternLM/tutorial/)
 ### [To大项目同学](https://openxlab.org.cn/docs/apps/Gradio%E5%BA%94%E7%94%A8.html)  
+---
 ## Findings  
 ### 1.对话即平台（conversation as a platform） 陆奇在微软期间2016年  智能体（Agent）类型应用   
 #### [支持对话作为统一入口的能力](https://datawhalechina.github.io/llm-universe/#/C1/2.%20%E2%BC%A4%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%83%BD%E2%BC%92%E5%92%8C%E7%89%B9%E7%82%B9?id=_13-%E6%94%AF%E6%8C%81%E5%AF%B9%E8%AF%9D%E4%BD%9C%E4%B8%BA%E7%BB%9F%E4%B8%80%E5%85%A5%E5%8F%A3%E7%9A%84%E8%83%BD%E5%8A%9B)  
